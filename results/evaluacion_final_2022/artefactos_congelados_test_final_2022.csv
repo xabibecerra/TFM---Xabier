@@ -1,0 +1,3 @@
+﻿model,estimator_class,preprocessor_class,n_features_raw,artifact_path
+xgboost_refined,XGBClassifier,ColumnTransformer,49,../../models/xgboost_refined_validacion_externa.pkl
+logistic_refined,LogisticRegression,ColumnTransformer,49,../../models/logistic_refined_validacion_externa.pkl

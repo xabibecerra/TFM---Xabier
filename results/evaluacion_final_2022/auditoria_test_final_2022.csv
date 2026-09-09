@@ -1,0 +1,19 @@
+﻿control,value
+ultimo_mes_train_segun_auditoria_07,202209
+mes_validacion_segun_auditoria_07,202210
+test_leido_por_notebook_07,False
+periodos_test_leidos,"202211,202212"
+dataset_split_exigido,test
+primer_timestamp_test,2022-11-01 00:00:00
+ultimo_timestamp_test,2022-12-31 22:00:00
+filas_fisicas_leidas,380688
+filas_sin_etiqueta_excluidas,1584
+filas_evaluadas,379104
+filas_fuera_split_test,0
+llamadas_fit_en_notebook,0
+preprocesadores_reajustados,False
+hiperparametros_modificados,False
+n_estimators_xgboost,381
+modelo_final_preestablecido,xgboost_refined
+linea_base_preestablecida,logistic_refined
+datos_2023_leidos,False
