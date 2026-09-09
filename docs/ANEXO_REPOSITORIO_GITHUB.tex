@@ -1,0 +1,41 @@
+% Fragmento para incluir en la memoria del TFM.
+% Requiere \usepackage{hyperref} en el preámbulo del documento principal.
+
+\chapter{Repositorio de código y materiales reproducibles}
+\label{anexo:repositorio-github}
+
+El código, los notebooks, los resultados curados y la aplicación interactiva
+desarrollados para este Trabajo Fin de Máster se encuentran disponibles en el
+siguiente repositorio público de GitHub:
+
+\begin{center}
+    \href{https://github.com/xabibecerra/TFM---Xabier}%
+    {\texttt{github.com/xabibecerra/TFM---Xabier}}
+\end{center}
+
+El repositorio constituye el anexo técnico del trabajo e incluye la secuencia
+de notebooks empleada en la preparación de datos, modelización, validación
+temporal, interpretabilidad, análisis de errores y elaboración de candidatas
+operativas. También contiene la aplicación desarrollada con Streamlit, los
+scripts auxiliares, las pruebas automatizadas, los modelos finales congelados y
+los archivos derivados necesarios para reproducir la demostración histórica.
+
+La organización temporal publicada coincide con la utilizada en la memoria:
+el entrenamiento emplea 2019, 2021 y enero--septiembre de 2022; octubre de 2022
+se reserva para validación externa; y noviembre--diciembre de 2022 constituye
+el test final congelado. Los viajes de enero--febrero de 2023 se presentan
+exclusivamente como análisis descriptivo, ya que no se dispone de estados de
+las estaciones para ese periodo.
+
+Las copias públicas de los notebooks no contienen resultados de ejecución ni
+rutas personales. Los resultados relevantes se facilitan en las carpetas
+\texttt{results/} y \texttt{app\_data/}. Las importancias por ganancia y SHAP
+deben interpretarse como señales utilizadas por el modelo y no como relaciones
+causales. Del mismo modo, las propuestas operativas publicadas son candidatas
+técnicas sujetas a restricciones logísticas y no órdenes de actuación reales.
+
+Para favorecer la trazabilidad, el repositorio incorpora un archivo
+\texttt{CITATION.cff}, huellas SHA-256 de los modelos y un flujo de integración
+continua que ejecuta automáticamente las pruebas de la aplicación. La fecha de
+consulta del repositorio deberá actualizarse en la versión definitiva de la
+memoria.
