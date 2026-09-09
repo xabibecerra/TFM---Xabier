@@ -1,0 +1,3 @@
+month,observed_trips,station_to_station_trips,same_station_trips,unique_origin_stations,unique_destination_stations,complete_days,mean_trips_per_complete_day,median_trips_per_complete_day,min_trips_complete_day,max_trips_complete_day,expected_days,observed_days,month_complete,station_to_station_share,same_station_share_within_station_trips
+2023-01,295923,294820,95294,261,261,31,9545.90322580645,9926.0,3294,13362,31,31,True,0.9962726790415074,0.3232277321755648
+2023-02,168494,167946,42357,258,258,17,9854.29411764706,10118.0,7801,11442,28,18,False,0.9967476586703384,0.25220606623557573

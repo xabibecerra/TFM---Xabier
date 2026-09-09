@@ -1,0 +1,15 @@
+control,value,interpretation
+input_rows,464417,filas de las dos particiones normalizadas
+valid_period_rows,464417,viajes con inicio válido dentro de enero-febrero de 2023
+invalid_start_rows,0,fecha de inicio no interpretable
+out_of_period_rows,0,inicio fuera del intervalo declarado
+missing_end_rows,0,sin fecha final
+missing_duration_rows,0,sin duración informada
+duration_below_1_minute,112735,"se conservan para volumen, no para duración típica"
+duration_above_120_minutes,2338,"se conservan para volumen, no para duración típica"
+non_positive_duration_rows,19,incidencias de calidad
+station_to_station_rows,462766,soporte del análisis por estación y OD
+same_station_rows,137651,origen y destino con el mismo identificador
+duplicate_signatures,258,filas implicadas; no se eliminan porque no existe trip_id fiable
+state_columns_present,False,debe ser False
+risk_or_prediction_columns_present,False,debe ser False

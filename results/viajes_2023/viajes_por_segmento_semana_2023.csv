@@ -1,0 +1,5 @@
+month,week_segment,days,mean_trips_per_day,median_trips_per_day
+2023-01,fin_de_semana,9,7096.555555555556,7340.0
+2023-01,lunes_a_viernes,22,10547.90909090909,10534.0
+2023-02,fin_de_semana,4,8278.25,8204.5
+2023-02,lunes_a_viernes,13,10339.23076923077,10341.0

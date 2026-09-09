@@ -1,0 +1,15 @@
+control,value
+analysis_scope,viajes_descriptivos_2023_enero_febrero
+first_trip,2023-01-01T00:01:08
+last_trip,2023-02-18T07:22:48
+observed_trips,464417
+observed_days,49
+complete_days,48
+february_complete,False
+station_state_data_used,False
+risk_labels_created,False
+model_predictions_used,False
+model_evaluation_performed,False
+probabilities_or_thresholds_adjusted,False
+operational_recommendations_generated,False
+net_flow_interpretation,balance_de_viajes_no_disponibilidad
