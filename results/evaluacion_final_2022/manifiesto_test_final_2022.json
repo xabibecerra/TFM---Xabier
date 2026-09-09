@@ -1,0 +1,17 @@
+{
+  "evaluation_name": "test_temporal_final_noviembre_diciembre_2022",
+  "final_model": "xgboost_refined",
+  "baseline_model": "logistic_refined",
+  "primary_metric": "f1_macro",
+  "secondary_metric": "balanced_accuracy",
+  "test_periods": [
+    "202211",
+    "202212"
+  ],
+  "test_rows": 379104,
+  "fit_calls": 0,
+  "artifacts": {
+    "xgboost_refined": "/notebooks/Datos modelado/validacion_externa/xgboost_refined_validacion_externa.pkl",
+    "logistic_refined": "/notebooks/Datos modelado/validacion_externa/logistic_refined_validacion_externa.pkl"
+  }
+}
