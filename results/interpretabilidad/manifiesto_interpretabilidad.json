@@ -1,0 +1,36 @@
+{
+  "notebook": "09_interpretabilidad_modelo_final_y_analisis_errores.ipynb",
+  "model": "xgboost_refined",
+  "fit_calls": 0,
+  "test_periods": [
+    "202211",
+    "202212"
+  ],
+  "shap_method": "xgboost_native_tree_shap_pred_contribs",
+  "shap_sample_rows": 12000,
+  "outputs": [
+    "auditoria_interpretabilidad.csv",
+    "catalogo_estaciones.csv",
+    "comparacion_gain_vs_shap.csv",
+    "entrada_10_estaciones_sensibles.csv",
+    "entrada_10_factores_por_clase.csv",
+    "entrada_10_horas_sensibles.csv",
+    "entrada_10_predicciones_y_contexto.csv",
+    "errores_horas_08_18_19.csv",
+    "errores_horas_y_estaciones.png",
+    "errores_por_estacion_modelo_final.csv",
+    "errores_por_hora_modelo_final.csv",
+    "errores_por_mes_modelo_final.csv",
+    "estaciones_con_soporte_para_revision.csv",
+    "factores_operativos_modelo_final.csv",
+    "falsos_negativos_criticos_detalle.csv",
+    "importancia_gain_agregada.csv",
+    "importancia_gain_transformada.csv",
+    "muestra_estratificada_shap.csv",
+    "shap_direccion_variables_numericas.csv",
+    "shap_global_y_por_clase.png",
+    "shap_importancia_agregada_por_clase.csv",
+    "shap_importancia_global.csv",
+    "shap_importancia_transformada_por_clase.csv"
+  ]
+}
