@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Si utiliza este repositorio, cite el Trabajo Fin de Máster y la versión publicada del software."
+type: software
+title: "Predicción de riesgo y apoyo operativo para BiciMAD"
+authors:
+  - family-names: "Becerra Galán"
+    given-names: "Xabier"
+repository-code: "https://github.com/xabibecerra/TFM---Xabier"
+version: 1.0.0
+date-released: 2026-09-09

@@ -1,0 +1,33 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Datos brutos e intermedios: no deben publicarse ni son necesarios para la app.
+Bases de datos/
+Datos analiticos/
+Datos modelado/
+notebooks/Datos analiticos/
+notebooks/Datos modelado/
+
+# Borradores de memoria y ficheros auxiliares de LaTeX.
+*.aux
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+~$*
+
+# Configuración local y credenciales.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
