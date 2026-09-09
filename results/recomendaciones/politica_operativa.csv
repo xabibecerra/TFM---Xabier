@@ -1,0 +1,6 @@
+﻿parameter,value,source
+operational_min_ratio,0.3,politica_operativa_no_ajustada
+operational_max_ratio,0.7,politica_operativa_no_ajustada
+max_pair_distance_km,3.0,restriccion_logistica_de_escenario
+max_units_per_transfer,10,restriccion_logistica_de_escenario
+risk_score_threshold,none,score_solo_para_ordenar
