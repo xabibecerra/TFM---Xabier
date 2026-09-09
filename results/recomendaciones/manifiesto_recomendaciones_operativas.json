@@ -1,0 +1,30 @@
+{
+  "notebook": "10_recomendaciones_operativas.ipynb",
+  "input_files": {
+    "predictions": "/notebooks/Datos modelado/interpretabilidad_modelo_final/entrada_10_predicciones_y_contexto.csv",
+    "factors": "/notebooks/Datos modelado/interpretabilidad_modelo_final/entrada_10_factores_por_clase.csv",
+    "stations": "/notebooks/Datos modelado/interpretabilidad_modelo_final/entrada_10_estaciones_sensibles.csv",
+    "hours": "/notebooks/Datos modelado/interpretabilidad_modelo_final/entrada_10_horas_sensibles.csv"
+  },
+  "policy": {
+    "operational_min_ratio": 0.3,
+    "operational_max_ratio": 0.7,
+    "max_pair_distance_km": 3.0,
+    "max_units_per_transfer": 10
+  },
+  "risk_score_use": "ordering_only_no_threshold",
+  "matching_method": "greedy_complementary_risks_then_safe_stable_support",
+  "outputs": [
+    "auditoria_recomendaciones_operativas.csv",
+    "candidatos_no_resueltos.csv",
+    "candidatos_tecnicos_priorizados.csv",
+    "explicaciones_shap_por_clase.csv",
+    "politica_operativa.csv",
+    "resumen_por_estacion.csv",
+    "resumen_por_hora.csv",
+    "resumen_por_timestamp.csv",
+    "resumen_recomendaciones_operativas.png",
+    "resumen_transferencias_por_timestamp.csv",
+    "transferencias_factibles.csv"
+  ]
+}
