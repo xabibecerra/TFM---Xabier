@@ -1,0 +1,48 @@
+{
+  "notebook": "11_analisis_descriptivo_viajes_enero_febrero_2023.ipynb",
+  "period_requested": [
+    "2023-01-01",
+    "2023-02-28"
+  ],
+  "period_observed": [
+    "2023-01-01T00:01:08",
+    "2023-02-18T07:22:48"
+  ],
+  "input_files": {
+    "2023-01": "/notebooks/Datos analiticos/BiciMAD/viajes/viajes_202301.csv",
+    "2023-02": "/notebooks/Datos analiticos/BiciMAD/viajes/viajes_202302.csv"
+  },
+  "raw_files_used_only_for_station_labels": {
+    "2023-01": "/Bases de datos/Históricos de BiciMAD 2019-2023/bicimad_2023/trips_23_01_January.csv",
+    "2023-02": "/Bases de datos/Históricos de BiciMAD 2019-2023/bicimad_2023/trips_23_02_February.csv"
+  },
+  "scope_guards": {
+    "station_state_data_used": false,
+    "risk_labels_or_predictions_used": false,
+    "operational_recommendations_generated": false,
+    "february_is_partial": true
+  },
+  "duration_analysis_window_seconds": [
+    60,
+    7200
+  ],
+  "outputs": [
+    "actividad_estaciones.png",
+    "actividad_por_estacion_2023.csv",
+    "auditoria_alcance_descriptivo_2023.csv",
+    "auditoria_calidad_viajes_2023.csv",
+    "balance_espacial_viajes_observados.png",
+    "cobertura_mensual_2023.csv",
+    "duracion_viajes.png",
+    "pares_origen_destino_2023.csv",
+    "patrones_horarios_y_semanales.png",
+    "principales_pares_od.png",
+    "resumen_duracion_viajes_2023.csv",
+    "resumen_mensual_viajes_2023.csv",
+    "viajes_diarios_y_cobertura.png",
+    "viajes_por_dia_2023.csv",
+    "viajes_por_dia_semana_2023.csv",
+    "viajes_por_hora_2023.csv",
+    "viajes_por_segmento_semana_2023.csv"
+  ]
+}
