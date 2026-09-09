@@ -1,0 +1,4 @@
+﻿hour,rows,errors,support_empty,false_negatives_empty,support_full,false_negatives_full,false_positives_empty,false_positives_full,error_rate,recall_empty,recall_full,critical_support,critical_false_negatives,critical_false_negative_rate,priority_reason
+8,15840,1134,1944,533,214,118,395,89,0.0715909090909091,0.7258230452674896,0.44859813084112155,2158,651,0.3016682113067655,hora_predefinida_por_tasa_de_error
+18,15840,1131,1754,538,149,92,415,86,0.07140151515151515,0.69327251995439,0.3825503355704698,1903,630,0.3310562270099842,hora_predefinida_por_tasa_de_error
+19,15840,1132,1778,479,187,108,443,102,0.07146464646464647,0.7305961754780652,0.42245989304812837,1965,587,0.29872773536895675,hora_predefinida_por_tasa_de_error

@@ -1,0 +1,265 @@
+﻿station_id,station_number,station_name,address,latitude,longitude,capacity
+130,122,Santa Engracia 14,Calle Santa Engracia nº 14,40.4291992,-3.6967169,24
+134,163,Paseo de la Esperanza,Paseo de la Esperanza nº 2,40.4035988,-3.7064516,21
+129,121,Santa María de la Cabeza,Paseo de Santa María de la Cabeza nº 58,40.4017926,-3.6987665,24
+13,12,San Hermenegildo,Calle San Bernardo nº 85,40.4284246,-3.7061931,24
+122,115,Ferraz,Calle Evaristo San Miguel nº 2,40.4253944,-3.7170448,24
+128,120,Palos de la Frontera,Calle Palos de la Frontera nº 27,40.4032208,-3.6944768,24
+133,162,Metro Pirámides,Paseo de los Olmos nº 28,40.4034076,-3.7108108,24
+126,118,Juan Martín,Calle Juan Martín el Empecinado nº 16,40.400781,-3.6882407,24
+127,119,Méndez Álvaro,Calle Méndez Álvaro nº 11,40.4013216,-3.6863218,24
+124,116b,Plaza de España B,Calle Princesa nº 5,40.423681,-3.710537,24
+125,117,Altamirano,Calle Altamirano nº 24,40.4309797,-3.7188898,24
+131,123,Guzmán el Bueno,Calle Guzmán el Bueno nº 1,40.4306458,-3.7133412,24
+123,116a,Plaza de España A,Calle Princesa nº 5,40.423668,-3.713053,24
+120,113,Pintor Rosales,Paseo del Pintor Rosales frente al nº 38,40.427657,-3.7205129,24
+121,114,Quintana,Calle Quintana nº 11,40.4277456,-3.7174158,24
+132,161,Paseo de la Florida,Paseo de la Florida nº 8,40.4219665,-3.7224983,27
+227,219,Marroquina,Calle Camino de los Vinateros nº 108,40.408264,-3.646697,24
+136,164,Paseo de las Delicias,Paseo de las Delicias nº 92,40.3972616,-3.6945025,24
+264,256,Reina Victoria,Calle Beatriz de Bobadilla frente al nº 2,40.44635,-3.71383,24
+265,257,INEF,Avenida Juan de Herrera frente a la calle Paul Guinard,40.43896,-3.72997,24
+106,101,Jorge Juan,Calle Jorge Juan nº 131,40.4231526,-3.6691524,24
+266,258,Ciudad Universitaria 1,Avenida de la Complutense (Metro Ciudad Universitaria),40.44375,-3.72699,24
+267,259,Ciudad Universitaria 2,Avenida de la Complutense (Metro Ciudad Universitaria),40.44342,-3.72693,24
+268,260,Facultad Biología,Calle José Antonio Novais frente al nº 12,40.4483322,-3.7272945,24
+269,261,Facultad Derecho,Avenida Complutense nº 23,40.45109,-3.72937,24
+27,24,Palacio de Oriente,Calle Carlos III nº 1,40.417908,-3.710692,24
+270,247,Zurbano,Calle Zurbano nº 90,40.43837,-3.69281,24
+28,25a,Plaza de Celenque A,Plaza de Celenque nº 1,40.4173703,-3.7057791,24
+29,25b,Plaza de Celenque B,Plaza de Celenque nº 1,40.4172781,-3.7063837,24
+3,2,Miguel Moya,Calle Miguel Moya nº 1,40.4205886,-3.7058415,24
+105,100,Palacio de Deportes,Calle Goya nº 99,40.42478,-3.67384,24
+30,26,Plaza de las Salesas,Plaza de las Salesas 7,40.423855,-3.694475,24
+31,27,Huertas,Calle Jesús nº 1,40.4132798,-3.6956178,24
+32,28,Sevilla,Calle Alcalá nº 27,40.4181518,-3.6984368,24
+33,29,Marqués de Cubas,Calle del Marqués de Cubas nº 25,40.4162619,-3.6957355,24
+34,30,San Quintín,Calle Pavía nº 6,40.4192095,-3.711504,27
+35,31,Calle Mayor,Calle Mayor nº 20,40.4163638,-3.7068969,27
+36,32,Plaza de la Provincia,Plaza de la Provincia nº 1,40.4150099,-3.7061032,18
+37,33,Carretas,Calle Carretas nº 8,40.4165039,-3.7030833,21
+38,34,Jacinto Benavente,Plaza de Jacinto Benavente,40.4146755,-3.7036825,24
+104,99,Alcántara,Calle Alcántara nº 2,40.4261851,-3.6738714,24
+39,35,Plaza del Cordón,Plaza del Cordón,40.4141931,-3.7103285,24
+4,3,Plaza Conde Suchil,Plaza del Conde del Valle de Súchil nº 3,40.4302937,-3.7069171,18
+40,36,Plaza Ramales,Plaza de Ramales,40.4168,-3.71183,24
+41,37,Plaza de San Francisco,Plaza de San Francisco nº 5,40.4108,-3.714113,24
+263,255,López Pozas,Calle General López Pozas nº 2,40.46361,-3.68514,24
+42,38,Plaza de los Carros,Carrera de San Francisco nº 1,40.4114041,-3.7114762,24
+262,254,Pío XII,Avenida Pío XII nº 3,40.46041,-3.67712,24
+260,252,Chamartín,Calle Rodríguez Jaén nº 40,40.4716,-3.68391,24
+238,230,Carlota O’Neill,Calle Carlota O'Neill nº 32,40.44370542379883,-3.648958444298144,24
+109,104,Castellana,Paseo de la Castellana nº 4,40.42677,-3.68958,21
+239,231,Derechos Humanos,Calle Derechos Humanos nº 12,40.43965673033275,-3.6557656204708775,24
+240,232,José María Pereda,Calle José María de Pereda nº 1,40.43272086245887,-3.6485306152875134,24
+241,233,Marqués de Corbera 12,Avenida Marqués de Corbera nº 12,40.422962108947424,-3.6555552857442697,24
+242,234,Marqués de Corbera 52,Avenida Marqués de Corbera nº 52,40.42620714320088,-3.651034981803642,24
+243,235,Embajadores 191,Calle Sodio nº 1B,40.38925864357911,-3.690358964335348,24
+244,236,Paseo Imperial,Paseo Imperial nº 20,40.40765396169372,-3.7172213778842007,24
+245,237,Pablo Iglesias,Calle Francisco Balseiro nº 1,40.451333,-3.710525,24
+246,238,San Germán 5,Calle San Germán nº 5,40.45619382579544,-3.69293767517953,24
+247,239,Francos Rodríguez,Calle Francos Rodríguez nº 62,40.45673408797698,-3.708002730875242,24
+96,91,Príncipe de Vergara,Calle Hermosilla nº 70,40.426134,-3.6787441,24
+248,240,Avenida Brasilia,Avenida de Brasilia frente al nº 9,40.43666,-3.66096,24
+108,103,Ortega y Gasset,Calle José Ortega y Gasset nº 4,40.43037,-3.68653,24
+249,241,Camilo José Cela,Avenida de Camilo José Cela nº 23,40.4378,-3.66779,24
+25,22,Jacometrezo,Calle Jacometrezo nº 3,40.4200783,-3.7065376,24
+250,242,Avenida Bruselas,Avenida Bruselas nº 56,40.43865,-3.66301,24
+251,243,Cartagena,Calle Cartagena nº 34,40.43503,-3.67012,24
+252,244,Hospital Clínico,Calle Isaac Peral nº 44,40.44003,-3.71757,24
+253,245,Galileo,Calle Galileo nº 63,40.4364,-3.71019,24
+254,246,Santa Engracia 87,Calle Santa Engracia nº 87,40.43604,-3.69928,24
+256,248,Torre Cepsa,Calle Sinesio Delgado nº 2,40.47435,-3.68797,24
+257,249,Manuel Caldeiro,Paseo de la Castellana nº 298,40.47938,-3.68532,24
+107,102,Velázquez,Calle Alcalá nº 95,40.4211802,-3.6840229,24
+258,250,Serrano 113,Calle Serrano nº 113B,40.44106,-3.68609,24
+259,251,Corazón de María,Calle Santa Hortensia nº 31,40.44421,-3.66683,24
+26,23,Santo Domingo,Plaza de Santo Domingo nº 1,40.4202834,-3.7081246,24
+261,253,Doctor Fleming,Calle Doctor Fleming nº 7,40.45546,-3.68844,21
+237,229,C.D. Concepción,Calle Jose del Hierro nº 5,40.43715089959262,-3.64835857929032,24
+43,39,Plaza de la Cebada,Plaza de la Cebada nº 16 ,40.4112744,-3.7088337,27
+45,41,Antón Martín,Calle Atocha nº 54,40.4122047,-3.6991147,18
+72,68,Espalter,Calle Espalter nº 1,40.4128372,-3.6912023,21
+73,69,Puerta del Ángel Caído,Avenida de Alfonso XII nº 54,40.409808,-3.688822,27
+100,95,Villanueva,Calle Claudio Coello nº 109,40.4226584,-3.6870548,24
+74,70,Puerta del Doce de Octubre,Avenida de Menéndez Pelayo nº 63,40.4153053,-3.6779232,24
+75,71,Doce de Octubre,Calle Doce de Octubre nº 28,40.4159569,-3.6738865,24
+76,72,Sainz de Baranda,Calle Doctor Esquerdo nº 99,40.4157413,-3.6691838,24
+77,73,Plaza de los Astros,Avenida de Nazaret nº 7,40.4114475,-3.6689089,24
+78,74,Puerta del Pacífico ,Avenida de Menéndez Pelayo nº 73,40.4117627,-3.6766813,24
+79,75,Menéndez Pelayo,Avenida de Menéndez Pelayo con calle Poeta Esteban Villegas,40.4082805,-3.6784838,24
+8,7,Hortaleza,Calle Hortaleza nº 75,40.4251906,-3.6977715,21
+80,76,Puerta de Mariano de Cavia,Avenida del Mediterráneo nº 19,40.4071304,-3.6751352,24
+81,77,Conde de Casal,Plaza del Conde de Casal nº 8,40.40635,-3.670422,22
+10,9,Plaza de San Miguel,Plaza de San Miguel nº 9,40.4156057,-3.7095084,24
+82,78,Pedro Bosch,Calle Cerro de la Plata nº 2,40.400789,-3.6744,24
+83,79,Puerta de Granada,Avenida de Menéndez Pelayo nº 38,40.4051451,-3.6803874,24
+84,80a,Atocha A,Paseo de la Infanta Isabel nº 3,40.4075685,-3.6902255,24
+85,80b,Atocha B,Paseo de la Infanta Isabel nº 3,40.4074902,-3.6901234,27
+86,81,Cuesta de Moyano,Cuesta de Claudio Moyano,40.409297,-3.691987,24
+87,82,Niño Jesús,Calle Doctor Esquerdo nº 161,40.4084556,-3.6697526,24
+88,83,Pío Baroja,Calle Pío Baroja nº 10,40.4132995,-3.6745323,24
+89,84,Valderribas,Calle Doctor Esquerdo nº 191,40.4032501,-3.6726019,24
+94,89,Conde Peñalver,Calle Ayala nº 102,40.4272582,-3.6752024,24
+9,8,Alonso Martínez,Plaza de Alonso Martínez nº 5,40.4278682,-3.6954403,24
+1,1a,Puerta del Sol A,Puerta del Sol nº 1,40.4172137,-3.7018341,30
+90,85,Puerta de Madrid,Avenida de Menéndez Pelayo esquina calle O'Donnell,40.421501,-3.680008,27
+91,86,Cibeles,Plaza Cibeles,40.4186516,-3.6933498,21
+92,87,Ayala,Calle Ayala nº 44,40.427736,-3.6832566,24
+71,67,Almadén,Calle Almadén nº 28,40.4108472,-3.693225,24
+44,40,Conde de Romanones,Plaza del Conde de Romanones nº 9,40.4138846,-3.7049407,24
+7,6,Colegio Arquitectos,Calle Hortaleza nº 63,40.424148,-3.698447,24
+67,63,Ibiza,Calle Ibiza nº 62,40.4179237,-3.6708959,24
+46,42,Santa Isabel,Calle Atocha nº 95,40.4107085,-3.6982318,24
+103,98,Plaza de Felipe II,Plaza de Felipe II,40.4239447,-3.6758383,24
+95,90,General Pardiñas,Calle Goya nº 18,40.4250361,-3.6837876,30
+47,43,Jesús y María,Calle Lavapiés nº 34,40.4101564,-3.7025024,24
+48,44,Plaza de Nelson Mandela,Calle Mesón de Paredes nº 35,40.4097617,-3.7040666,21
+49,45,Puerta de Toledo,Glorieta de la Puerta de Toledo nº 1,40.4070358,-3.7110513,21
+5,4,Malasaña,Calle Manuela Malasaña nº 5,40.4285524,-3.7025875,24
+50,46,Ribera de Curtidores,Calle Ribera de Curtidores nº 28,40.4053153,-3.7071259,24
+51,47,Embajadores 1,Glorieta de Embajadores nº 6,40.4047851,-3.7028265,24
+52,48,Embajadores 2,Glorieta de Embajadores nº 2,40.4056107,-3.7022591,24
+53,49,Casa Encendida,Ronda de Atocha nº 34,40.4060941,-3.6992759,24
+54,50,Museo Reina Sofía,Calle Santa Isabel nº 57,40.4083684,-3.6933463,24
+55,51,Ronda de Atocha,Ronda de Atocha nº 2,40.4075606,-3.6935205,27
+102,97,Alcalá,Avenida de Menéndez Pelayo nº 3,40.4222969,-3.6805189,27
+56,52,Plaza de Santa Ana,Plaza de Santa Ana nº 10,40.4144226,-3.7007164,24
+57,53,Plaza de Lavapiés,Calle Valencia nº 1,40.4083061,-3.7007111,24
+58,54,Barceló,Calle Barceló nº 7,40.4266828,-3.700423,21
+59,55,Plaza de San Ildefonso,Plaza de San Ildefonso,40.4239757,-3.7020842,24
+6,5,Fuencarral,Calle Fuencarral nº 108,40.42852,-3.70205,27
+60,56,Plaza del Carmen ,Plaza del Carmen nº 1,40.4184192,-3.7032414,24
+61,57,Santa Cruz del Marcenado,Calle Santa Cruz del Marcenado nº 24,40.4295658,-3.7126299,24
+62,58,Augusto Figueroa,Calle Augusto Figueroa nº 33,40.4222862,-3.697895,24
+63,59,Plaza de Juan Pujol,Calle Espíritu Santo nº 30,40.4255495,-3.7043418,21
+101,96,Castelló,Calle Alcalá nº 111,40.422064,-3.6821793,27
+64,60,Plaza de la Independencia,Plaza de la Independencia nº 6,40.419752,-3.688398,24
+65,61,Narváez,Calle O'Donnell nº 28,40.4213983,-3.6752045,24
+66,62,O'Donnell,Calle O'Donnell nº 50,40.4213148,-3.6724968,24
+69,65,Antonio Maura,Calle Antonio Maura nº 15,40.4166834,-3.6894193,24
+135,165,Entrada Matadero,Paseo de la Chopera nº 14,40.3928821,-3.6975708,27
+236,227,Concordia,Calle Arroyo del Olivar nº 6,40.39382977920336,-3.665936242935637,24
+234,226,Sierra Toledana,Camino de Valderribas nº 94,40.39901531507069,-3.6607768678037744,24
+162,140,Velázquez 130,Calle Velázquez nº 130,40.4385127,-3.6831578,27
+117,111a,Arcipreste de Hita A,Calle Arcipreste de Hita nº 12,40.4337322,-3.7175435,24
+98,93,Plaza de Colón,Calle Goya nº 1,40.4257046,-3.6893698,24
+163,126,General Álvarez de Castro,Calle del General Álvarez de Castro nº 1,40.4344731,-3.7015686,24
+164,125,General Martínez Campos ,Calle Fernández de la Hoz nº 29,40.435285,-3.6948626,24
+165,141,Paseo de la Castellana - Glorieta de Emilio Castelar,Paseo de la Castellana nº 43,40.4355143,-3.6892368,12
+166,143,Diego de León 52,Calle Diego de León nº 52,40.4345973,-3.678492,24
+167,142,Castellana 42,Paseo de la Castellana nº 42,40.4334087,-3.6879154,24
+168,127,Fernando el Católico,Calle Fernando el Católico nº 19,40.4338516,-3.708439,24
+169,124,Manuel Silvela,Calle Manuel Silvela nº 20,40.4309524,-3.6993465,24
+17,16,San Bernardo,Calle San Bernardo nº 22,40.4230721,-3.7075065,21
+170,144,Juan Bravo 50,Calle Juan Bravo nº 50,40.4323655,-3.6758555,24
+116,110,Moncloa,Paseo de Moret nº 2,40.4347895,-3.7200845,24
+171,145,Ortega y Gasset 87,Calle Ortega y Gasset nº 87,40.429887,-3.6712823,24
+172,160,Colombia,Calle Colombia nº 7,40.4572466,-3.6763439,24
+173,159,Paseo de la Habana 63,Paseo de la Habana nº 63,40.4543852,-3.6835926,24
+174,166,Segovia 26,Calle Segovia nº 26,40.4138333,-3.7135833,24
+175,167,Segovia 45,Calle Segovia nº 45,40.413736,-3.717487,24
+176,168,Batalla del Salado,Paseo Santa María de la Cabeza nº 29,40.4044722,-3.6959166,24
+177,169,Pirámides,Calle Toledo nº 181,40.4016111,-3.7138055,24
+178,170,Paseo de la Esperanza,Paseo de la Esperanza nº 21,40.401,-3.7043611,24
+179,171,Embajadores-Cáceres,Calle Embajadores nº 101,40.39975,-3.6983888,24
+115,109,Marqués de Salamanca,Calle José Ortega y Gasset nº 30,40.4300481,-3.6816402,24
+18,17,Carlos Cambronero,Plaza de Carlos Cambronero nº 2,40.4232649,-3.7038312,24
+180,172,Delicias,Calle Bustamante nº 1,40.4008888,-3.6935833,24
+181,173,Puente Praga,Paseo de la Esperanza nº 59,40.3981798,-3.7023918,24
+182,174,Madrid Río-Yeserías,Paseo de Yeserías nº 45,40.3974444,-3.7065277,27
+161,129,José Abascal,Calle José Abascal nº 33,40.4383865,-3.6982353,24
+183,175,Jaime el Conquistador,Calle Jaime el Conquistador nº 30,40.3962222,-3.6983055,21
+160,128,Cea Bermúdez,Calle Cea Bermúdez nº 59,40.438994,-3.7154329,27
+159,139,José Gutiérrez Abascal ,Calle José Gutiérrez Abascal nº 2,40.4396792,-3.6907784,24
+137,157,Castellana 164,Paseo de la Castellana nº 164,40.4591366,-3.6894151,24
+12,11,San Andrés,Calle San Andrés nº 18,40.4269483,-3.7035918,24
+138,158,Alberto Alcocer,Avenida de Alberto Alcocer nº 22,40.4585318,-3.684715,24
+139,155,San Germán 57,Calle San Germán nº 57,40.4572824,-3.7009675,24
+14,13,Conde Duque,Calle Conde Duque nº 22,40.4273264,-3.7104417,24
+140,156,Sor Ángela de la Cruz,Calle Sor Ángela de la Cruz nº 2,40.4592351,-3.691533,24
+141,154,Orense 36,Calle Orense nº 36,40.4548456,-3.6946218,24
+142,152,General Perón 1,Avenida del General Perón frente al nº 4,40.4527164,-3.6990077,24
+143,153,General Perón con Poeta Joan Maragall,Avenida del General Perón frente al nº 36,40.4522454,-3.693085,24
+144,148,Serrano 210,Calle Serrano nº 210,40.4510188,-3.6817962,24
+145,151,Orense 12,Calle Orense nº 12,40.4489101,-3.6952943,24
+146,149,Paseo de la Habana 42,Paseo de la Habana nº 42,40.4498613,-3.6881689,24
+119,112,Paseo de Moret,Paseo de Moret nº 11,40.4325991,-3.7246532,24
+147,150,Castellana frente a Hermanos Pinzón,Paseo de la Castellana nº 122,40.4488924,-3.6905604,24
+148,147,Doctor Arce 45,Avenida del Doctor Arce nº 45,40.4483269,-3.6797296,24
+149,132,Glorieta de los Cuatro Caminos,Calle Santa Engracia nº 168,40.4463667,-3.7036675,24
+15,14,Ventura Rodríguez,Calle Duque de Liria,40.4260957,-3.713479,24
+150,133,Raimundo Fernández,Calle Raimundo Fernández Villaverde nº 33,40.447125,-3.7001669,24
+151,136,Castellana 106,Paseo de la Castellana nº 106,40.4453307,-3.690861,24
+152,137,Plaza de la República Argentina,Plaza de la República Argentina nº 6,40.445411,-3.6853312,24
+153,134,Agustín de Betancourt,Calle María de Guzmán nº 58,40.4440297,-3.6956047,24
+154,138,Paseo de la Castellana con Raimundo Fernández,Paseo de la Castellana esquina calle Raimundo Fernández Villaverde,40.4457414,-3.6917932,24
+118,111b,Arcipreste de Hita B,Calle Arcipreste de Hita nº 12,40.4341006,-3.7179687,24
+155,146,María Francisca 1,Calle María Francisca nº 1,40.4442258,-3.6787169,18
+156,131,Bravo Murillo 44,Calle Bravo Murillo nº 44,40.4418402,-3.7040344,24
+157,130,Santa Engracia 127,Calle Santa Engracia nº 127,40.44156,-3.70164,20
+158,135,Plaza de San Juan de la Cruz,Plaza de San Juan de la Cruz nº 11,40.4415974,-3.6927821,24
+16,15,San Vicente Ferrer,Calle San Vicente Ferrer nº 64,40.4262383,-3.7074453,21
+235,228,San Delfín,Calle San Delfín nº 9,40.39440607959559,-3.708042972844556,24
+184,176,Beata,Calle Alicante nº 3,40.39425,-3.6937222,24
+186,178,Junta Municipal Retiro,Calle León Gil de Palacio nº 3,40.4029202,-3.6788343,24
+210,202,Parque Santander,Calle Santander esquina con Avenida de Filipinas,40.4411388,-3.7080833,24
+211,203,San Francisco de Sales,Calle General Ampudia nº 2,40.44175,-3.7144722,24
+111,106a,Colón A,Calle Serrano nº 34,40.4251002,-3.6877227,18
+212,204,Cuatro Caminos 2,Calle Doctor Santero nº 1,40.4476666,-3.7041666,24
+213,205,Estrecho,Calle Navarra nº 1,40.4535,-3.7032777,24
+214,206,Metro Tetuán,Calle Marqués de Viana nº 3,40.4607502,-3.6989925,24
+215,207,Remonta,Calle Azucenas nº 1,40.4630277,-3.6973333,18
+216,208,Plaza de Castilla,Paseo de la Castellana nº 216,40.4663611,-3.6886388,24
+217,209,Plaza de Castilla 2,Paseo Castellana (Fundación Canal),40.4656779,-3.6887722,24
+218,210,Tres Cruces,Calle Tres Cruces nº 7,40.419674,-3.7026735,27
+219,211,Desengaño,Calle Desengaño nº 1,40.42059,-3.70239,24
+220,212,Marqués de Vadillo,Glorieta Marqués de Vadillo nº 9,40.398247,-3.716591,24
+110,105,Serrano,Calle Serrano nº 54,40.42699,-3.68745,24
+221,213,Glorieta de Cádiz,Calle Antonio López nº 129,40.38895,-3.70017,24
+222,214,Condesa de Venadito,Calle Condesa de Venadito nº 2,40.44315,-3.65741,24
+223,215,Gutierre de Cetina,Calle Gutierre de Cetina nº 77,40.429706,-3.640994,24
+224,216,Puerta del Ángel,Plaza Puerta del Ángel nº 4,40.413764,-3.728318,24
+225,217,Pedro Rico,Calle Pedro Rico nº 4,40.481086,-3.688463,24
+226,218,Camino Vinateros,Calle Camino de los Vinateros nº 28,40.41053,-3.65779,24
+93,88,Embajada de Italia,Calle Velázquez nº 75,40.4313576,-3.6838303,24
+228,220,Plaza del Encuentro,Calle Arroyo de las Pilillas nº 6,40.40617,-3.65122,24
+229,221,Pavones,Calle Hacienda de Pavones nº 342,40.400368,-3.634587,24
+11,10,Marqués de la Ensenada,Calle Marqués de la Ensenada nº 16,40.42533,-3.69214,24
+230,222,Antonio López,Calle Eugenio Caxes frente al nº 12,40.3917871,-3.7026789,24
+231,223,Ermita Santo,Paseo de la Ermita del Santo nº 48,40.406837862773465,-3.7244893989507686,24
+232,224,Caramuel,Calle Caramuel nº 51,40.40913630273305,-3.728533714316331,24
+233,225,Doctor Lozano,Calle Sierra Toledana nº 33,40.40248333540473,-3.660188083470652,24
+21,20a,Banco de España A,Calle Alcalá nº 49,40.4192342,-3.6954615,30
+185,177,Legazpi,Calle Bolívar nº 3,40.3914722,-3.6941944,24
+209,201,Canal,Calle José Abascal frente al nº 2,40.4386944,-3.7038333,24
+207,199,Fernando el Católico,Calle Fernando el Católico nº 61,40.4343611,-3.7149166,27
+187,179,Puente de Vallecas,Avenida de la Albufera nº 6,40.3979722,-3.66925,24
+114,108,Mártires Concepcionistas,Calle Mártires Concepcionistas nº 2,40.4273005,-3.6706024,27
+188,180,Méndez Álvaro,Calle Retama nº 5,40.3941388,-3.6758888,24
+189,181,Retiro-Ibiza,Calle Ibiza nº 18,40.41825,-3.6766111,27
+19,18,Plaza de Pedro Zerolo,Plaza de Pedro Zerolo nº 1,40.4207773,-3.6996502,24
+190,182,Parque Roma,Calle Alcalde Sáinz de Baranda frente al nº 107,40.4186666,-3.6657777,24
+191,183,Doctor Esquerdo-Hermosilla,Calle Hermosilla nº 135,40.425635,-3.669339,24
+192,184,Marqués de Zafra,Paseo Marqués de Zafra nº 24,40.426,-3.6653055,24
+193,185,Quinta Fuente del Berro,Calle Sancho Dávila esquina Paseo Marqués de Zafra,40.4250833,-3.6615277,24
+194,186,General Pardiñas,Calle General Pardiñas nº 56,40.4290555,-3.6782777,24
+195,187,Alcalá-Ventas,Calle Alejandro González nº 1,40.4301666,-3.6638888,24
+196,188,Puente de Ventas,Avenida de Daroca nº 2,40.4311944,-3.6590555,27
+113,107,Columela,Calle Serrano nº 8,40.4215246,-3.6884369,24
+197,189,Avenida Donostiarra,Calle Virgen de la Alegría nº 18,40.4351256,-3.6554918,24
+198,190,Velázquez-Diego de León,Calle Velázquez nº 91,40.4343333,-3.6835833,24
+199,191,Diego de león,Calle Alonso Heredia nº 1,40.4346388,-3.674,18
+2,1b,Puerta del Sol B,Puerta del Sol nº 1,40.41731271011562,-3.701602938060457,30
+20,19,Prim,Calle Prim nº 2,40.4218616,-3.6954983,24
+200,192,Avenida de los Toreros,Avenida de los Toreros nº 3,40.4318611,-3.6714166,27
+201,193,Ventas,Avenida de los Toreros nº 49,40.4324722,-3.6655555,27
+202,194,Avenida de América 2,Calle Francisco Silvela nº 86,40.43725,-3.6772222,24
+203,195,Avenida de América 1,Calle Padre Indalecio Hernández nº 1,40.4392222,-3.6754444,24
+112,106b,Colón B,Calle Serrano nº 34,40.424963,-3.687745,18
+97,92,Claudio Coello,Calle Claudio Coello nº 45,40.4262945,-3.6865463,24
+204,196,Prosperidad,Calle Suero de Quiñones nº 2,40.4441388,-3.6751388,24
+205,197,Parque Berlín,Avenida de Concha Espina nº 34,40.4515833,-3.6780555,24
+206,198,Rubén Darío,Glorieta Rubén Darío 2,40.4331111,-3.6915555,24
+208,200,Quevedo,Glorieta de Quevedo nº 5,40.4336944,-3.7046666,24
+99,94,Biblioteca Nacional,Paseo de Recoletos nº 20,40.4232153,-3.690756,21
