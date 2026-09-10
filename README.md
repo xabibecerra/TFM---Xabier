@@ -1,4 +1,4 @@
-# Predicción de riesgo y apoyo operativo para BiciMAD
+# Predicción del riesgo de vaciado y saturación en estaciones de BiciMAD y generación de recomendaciones operativas
 
 Repositorio técnico de un Trabajo Fin de Máster sobre la anticipación del riesgo de vaciado y saturación de estaciones de BiciMAD. Contiene el flujo metodológico en notebooks, los artefactos del modelo final, resultados curados y una aplicación Streamlit de consulta histórica.
 
