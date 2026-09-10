@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Si utiliza este repositorio, cite el Trabajo Fin de Máster y la versión publicada del software."
 type: software
-title: "Predicción de riesgo y apoyo operativo para BiciMAD"
+title: "Predicción del riesgo de vaciado y saturación en estaciones de BiciMAD y generación de recomendaciones operativas"
 authors:
   - family-names: "Becerra Galán"
     given-names: "Xabier"
