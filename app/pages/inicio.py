@@ -152,7 +152,7 @@ with right:
     st.page_link("pages/viajes_2023.py", label="Viajes 2023", icon="📊")
     st.write("Exploración descriptiva de cobertura, actividad, flujos y duración, sin predicciones de riesgo.")
 
-with st.expander("Relación con la Guía TFM Xabi y procedencia", expanded=False):
+with st.expander("Relación con los objetivos y procedencia", expanded=False):
     st.write(
         "La aplicación desarrolla el apartado «Desarrollo de la aplicación interactiva» de la guía "
         "y conecta la modelización predictiva, la interpretabilidad, el análisis de errores y "
