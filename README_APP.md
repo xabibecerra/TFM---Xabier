@@ -1,6 +1,8 @@
 # Aplicación interactiva del TFM de BiciMAD
 
-Esta aplicación Streamlit permite consultar los resultados históricos del TFM: predicciones de riesgo del test final de noviembre-diciembre de 2022, propuestas operativas del notebook 10, interpretabilidad y errores del notebook 09, y el análisis descriptivo independiente de viajes de enero-febrero de 2023.
+Esta aplicación Streamlit permite consultar los resultados históricos del TFM: predicciones de riesgo de la evaluación temporal retrospectiva de noviembre-diciembre de 2022, propuestas operativas del notebook 10, interpretabilidad y errores del notebook 09, y el análisis descriptivo independiente de viajes de enero-febrero de 2023.
+
+**Aplicación pública:** <https://tfm---xabier-cifshluvqdsrae5yvby4df.streamlit.app/>
 
 Es un prototipo histórico de solo lectura. No entrena modelos, no genera predicciones en tiempo real, no recalibra probabilidades, no modifica umbrales y no vuelve a calcular recomendaciones.
 
@@ -9,11 +11,13 @@ Es un prototipo histórico de solo lectura. No entrena modelos, no genera predic
 | Etapa | Periodo | Uso |
 |---|---|---|
 | Entrenamiento | 2019, 2021 y enero-septiembre de 2022 | Ajuste de los modelos |
-| Validación | Octubre de 2022 | Selección previa al test final |
-| Test final | Noviembre-diciembre de 2022 | Evaluación congelada y simulación histórica de la aplicación |
+| Validación | Octubre de 2022 | Selección del modelo y cierre del protocolo |
+| Evaluación temporal retrospectiva | Noviembre-diciembre de 2022 | Comparación de modelos congelados y simulación histórica de la aplicación |
 | Descriptivo | Enero-febrero de 2023 | Solo viajes; febrero tiene cobertura hasta el 18/02/2023 07:22:48 |
 
 No existen estados de estaciones para enero-febrero de 2023 dentro del proyecto. Por ese motivo, 2023 no se utiliza para crear disponibilidad, etiquetas de riesgo, predicciones o recomendaciones.
+
+El periodo de noviembre-diciembre de 2022 había sido consultado durante el desarrollo y no se considera una prueba prospectiva completamente independiente. Las predicciones, los umbrales y la política que muestra la aplicación permanecen congelados.
 
 ## Requisitos
 
@@ -89,7 +93,7 @@ Resume el objetivo, el protocolo temporal, la relación entre señal predictiva,
 
 ### Riesgo 2022
 
-Permite seleccionar únicamente fechas y horas realmente presentes en el test. Muestra la clase congelada, probabilidades, disponibilidad observada y contexto por estación. Las horas y estaciones sensibles son avisos retrospectivos y nunca correcciones del modelo.
+Permite seleccionar únicamente fechas y horas realmente presentes en la evaluación retrospectiva. Muestra la clase congelada, probabilidades, disponibilidad observada y contexto por estación. Las horas y estaciones sensibles son avisos retrospectivos y nunca correcciones del modelo.
 
 ### Recomendaciones
 

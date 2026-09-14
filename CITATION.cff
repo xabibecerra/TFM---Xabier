@@ -6,5 +6,7 @@ authors:
   - family-names: "Becerra Galán"
     given-names: "Xabier"
 repository-code: "https://github.com/xabibecerra/TFM---Xabier"
+url: "https://tfm---xabier-cifshluvqdsrae5yvby4df.streamlit.app/"
 version: 1.0.0
-date-released: 2026-09-09
+date-released: 2026-09-14
+license: MIT
