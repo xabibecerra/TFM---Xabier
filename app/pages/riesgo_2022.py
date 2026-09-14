@@ -1,4 +1,4 @@
-"""Mapa del test final, con consulta de contexto y cautelas retrospectivas."""
+"""Mapa de la evaluación retrospectiva, con contexto y cautelas."""
 
 import pandas as pd
 import streamlit as st
@@ -10,7 +10,7 @@ from app.riesgo import ACCIONES, CLASES, TIME, filtrar_escenario, formato, recue
 
 
 st.title("Riesgo 2022")
-st.caption("Test final · noviembre-diciembre de 2022")
+st.caption("Evaluación temporal retrospectiva · noviembre-diciembre de 2022")
 st.info("Consulta histórica de predicciones congeladas. Los filtros solo seleccionan registros: no recalculan el modelo ni ajustan umbrales.")
 
 try:
@@ -130,7 +130,7 @@ with st.expander("Meteorología y flujos previos", expanded=False):
     st.caption("Solo contexto observado. No se modifica la meteorología ni se imputan flujos ausentes.")
 
 st.subheader("Cautelas retrospectivas y soporte")
-st.caption("Diagnóstico agregado de todo el test final, no información conocida en el instante mostrado. "
+st.caption("Diagnóstico agregado de toda la evaluación retrospectiva, no información conocida en el instante mostrado. "
            "No entra en la predicción ni la corrige. Tasa FN = falsos negativos / soporte real de cada clase.")
 station_stats = stations.loc[stations.station_id.eq(station_id)]
 hour_stats = hours.loc[hours.hour.eq(instant.hour)]
@@ -141,7 +141,7 @@ elif station_flag.empty:
     st.caption("No hay una bandera de monitorización exportada para esta estación; no equivale a ausencia de riesgo.")
 else:
     st.caption("Sin bandera especial de estación en el notebook 10; no garantiza ausencia de errores.")
-for label, stats in [("Estación seleccionada · todo el test", station_stats), ("Hora seleccionada · todas las estaciones del test", hour_stats)]:
+for label, stats in [("Estación seleccionada · toda la evaluación", station_stats), ("Hora seleccionada · todas las estaciones evaluadas", hour_stats)]:
     st.markdown(f"**{label}**")
     if stats.empty:
         st.info("No hay estadísticas exportadas para este grupo. No se sustituyen por ceros.")

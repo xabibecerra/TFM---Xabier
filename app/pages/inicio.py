@@ -27,7 +27,7 @@ try:
     # Preparar el contenido antes de dibujar la página para no mostrar una portada parcial.
     indicators = [
         ("Observaciones estación-hora", numero(counts["predicciones"]),
-         "Filas del test final; una estación aparece en distintas horas."),
+         "Filas de la evaluación retrospectiva; una estación aparece en distintas horas."),
         ("Candidatos técnicos", numero(counts["candidatos"]),
          "Señales críticas del modelo, no transferencias garantizadas."),
         ("Transferencias propuestas", numero(counts["transferencias"]),
@@ -45,9 +45,9 @@ try:
         {"Etapa": "Entrenamiento", "Periodo": periods["entrenamiento"],
          "Uso": "Aprender patrones con datos anteriores al periodo de evaluación."},
         {"Etapa": "Validación", "Periodo": periods["validacion"],
-         "Uso": "Comparar y seleccionar antes de abrir el test final."},
-        {"Etapa": "Test final", "Periodo": periods["test"],
-         "Uso": "Evaluar el modelo congelado; no ajustar con estos resultados."},
+         "Uso": "Comparar, seleccionar y cerrar el protocolo de evaluación."},
+        {"Etapa": "Evaluación temporal retrospectiva", "Periodo": periods["test"],
+         "Uso": "Comparar modelos congelados; no ajustar con estos resultados."},
         {"Etapa": "Descriptivo independiente", "Periodo": "enero-febrero de 2023 (febrero parcial)",
          "Uso": "Describir viajes observados, sin estados, etiquetas de riesgo ni predicciones."},
     ]
@@ -58,7 +58,7 @@ except (DatosAppError, OSError, KeyError, TypeError, ValueError) as error:
     st.stop()
 
 st.title("BiciMAD — Riesgo y apoyo operativo")
-st.caption("Trabajo Fin de Máster · Xabi")
+st.caption("Trabajo Fin de Máster · Xabier Becerra Galán")
 st.write(
     "Este proyecto estudia cómo anticipar situaciones críticas en las estaciones de BiciMAD "
     "y convertir las predicciones en propuestas de redistribución explicables. "
@@ -95,8 +95,9 @@ st.table(stages)
 st.caption("2020 queda fuera del entrenamiento principal por su carácter atípico durante la pandemia.")
 st.warning(
     "No existen datos de estados de estaciones para enero-febrero de 2023 en este proyecto. "
-    "Por eso el test final se sitúa en noviembre-diciembre de 2022 y 2023 se reserva "
-    "al análisis descriptivo de viajes. Febrero tiene cobertura parcial."
+    "Por eso la evaluación predictiva se sitúa en noviembre-diciembre de 2022 y 2023 se reserva "
+    "al análisis descriptivo de viajes. Febrero tiene cobertura parcial. El periodo de evaluación "
+    "había sido consultado durante el desarrollo y no constituye una prueba prospectiva independiente."
 )
 st.caption(
     f"Viajes de 2023 observados desde {first_trip:%d/%m/%Y %H:%M:%S} "
@@ -142,7 +143,7 @@ st.caption("Las cinco páginas ya están disponibles: Inicio, Riesgo 2022, Recom
 left, right = st.columns(2)
 with left:
     st.page_link("pages/riesgo_2022.py", label="Riesgo 2022", icon="🗺️")
-    st.write("Mapa y consulta de predicciones, disponibilidad y contexto por estación y hora del test final.")
+    st.write("Mapa y consulta de predicciones, disponibilidad y contexto por estación y hora de la evaluación retrospectiva.")
     st.page_link("pages/recomendaciones.py", label="Recomendaciones", icon="🚲")
     st.write("Consulta de transferencias propuestas, coberturas parciales y candidatos no resueltos, con explicación operativa.")
 with right:
@@ -161,11 +162,11 @@ with st.expander("Relación con la Guía TFM Xabi y procedencia", expanded=False
     st.write(
         "Actualización metodológica respecto a la propuesta inicial de la guía: enero-febrero "
         "de 2023 deja de ser el test predictivo por ausencia de estados de estaciones. "
-        "El test final pasa a noviembre-diciembre de 2022. Esta decisión evita inventar "
-        "disponibilidad o etiquetas de riesgo."
+        "La evaluación predictiva pasa a noviembre-diciembre de 2022. Esta decisión evita inventar "
+        "disponibilidad o etiquetas de riesgo, aunque la consulta previa del periodo limita su independencia."
     )
     st.markdown(
-        "- **Notebook 08:** evaluación final congelada de noviembre-diciembre de 2022.\n"
+        "- **Notebook 08:** evaluación temporal retrospectiva de modelos congelados en noviembre-diciembre de 2022.\n"
         "- **Notebook 09:** importancia, SHAP y análisis de errores.\n"
         "- **Notebook 10:** candidatos y transferencias bajo restricciones operativas.\n"
         "- **Notebook 11:** viajes de 2023, exclusivamente descriptivos.\n"

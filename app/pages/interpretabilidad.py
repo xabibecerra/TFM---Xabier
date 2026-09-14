@@ -12,7 +12,7 @@ from app.riesgo import CLASES, tabla_falsos_negativos
 
 
 st.title("Interpretabilidad")
-st.caption("Modelo final congelado · test de noviembre-diciembre de 2022")
+st.caption("Modelo final congelado · evaluación retrospectiva de noviembre-diciembre de 2022")
 st.warning("SHAP e importancia identifican señales utilizadas por el modelo, no causas. "
            "Las explicaciones exportadas son factores globales por clase, no explicaciones locales de cada observación.")
 st.info("Diagnóstico retrospectivo: no entrena el modelo, no recalcula SHAP y no utiliza probabilidades del test "
@@ -39,7 +39,7 @@ if model_metrics.empty or comparison.empty or by_class.empty:
     st.stop()
 metric = model_metrics.iloc[0]
 a, b, c = st.columns(3)
-a.metric("F1 macro · test final", f"{metric.f1_macro:.4f}")
+a.metric("F1 macro · evaluación", f"{metric.f1_macro:.4f}")
 b.metric("Exactitud equilibrada", f"{metric.balanced_accuracy:.4f}")
 c.metric("Observaciones evaluadas", f"{int(metric.test_rows):,}".replace(",", "."))
 with st.expander("Resultados por clase del XGBoost congelado"):
@@ -113,7 +113,7 @@ st.subheader("3. Falsos negativos · soporte y cautelas")
 risk = st.selectbox("Clase real para analizar falsos negativos", [1, 2], format_func=CLASES.get, key="int_clase_error")
 st.caption("Un falso negativo es una observación de esta clase real que el modelo clasificó en otra clase. "
            "Tasa FN = falsos negativos / soporte real. No es la tasa de error sobre todas las filas. "
-           "Todos los grupos son retrospectivos del test final; no modifican predicciones, umbrales ni recomendaciones.")
+           "Todos los grupos pertenecen a la evaluación retrospectiva; no modifican predicciones, umbrales ni recomendaciones.")
 try:
     hour_errors = errores_clase(hours, risk, "hour").sort_values("hour")
     month_errors = errores_clase(months, risk, "month").sort_values("month")
@@ -130,7 +130,7 @@ with st.expander("Todas las horas con sus denominadores"):
     st.dataframe(hour_errors.rename(columns={"hour": "Hora"}), hide_index=True, use_container_width=True)
 
 st.markdown("**Estaciones: comparar siempre con soporte**")
-st.caption(f"El archivo de revisión contiene {len(stations)} estaciones de las {len(catalog)} del catálogo del test. "
+st.caption(f"El archivo de revisión contiene {len(stations)} estaciones de las {len(catalog)} del catálogo evaluado. "
            "No es el conjunto completo: una estación ausente no tiene necesariamente cero errores. "
            "El notebook 09 exigió al menos 500 filas y soporte de 20 en alguna clase crítica; "
            "las banderas por clase indican si se alcanzó ese soporte para vaciado o saturación.")
