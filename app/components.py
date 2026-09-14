@@ -10,5 +10,5 @@ def mostrar_contexto_sidebar(manifest):
         st.markdown("**TFM · BiciMAD**")
         st.caption("Demostración histórica. No es un servicio en tiempo real.")
         st.caption("Modelo y resultados congelados. Sin reentrenamiento ni ajuste de umbrales.")
-        st.caption("2022: test final de noviembre-diciembre. 2023: solo viajes descriptivos.")
+        st.caption("2022: evaluación retrospectiva de noviembre-diciembre. 2023: solo viajes descriptivos.")
         st.caption(f"Datos preparados y verificados · {len(manifest['tablas'])} tablas.")

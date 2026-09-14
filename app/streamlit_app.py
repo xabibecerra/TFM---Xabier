@@ -16,7 +16,7 @@ from app.components import mostrar_contexto_sidebar
 
 
 st.set_page_config(
-    page_title="BiciMAD — TFM Xabi",
+    page_title="BiciMAD — TFM de Xabier Becerra Galán",
     page_icon="🚲",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -26,7 +26,7 @@ pages = {
     "Proyecto": [
         st.Page("pages/inicio.py", title="Inicio", icon="🏠", default=True),
     ],
-    "Test final · 2022": [
+    "Evaluación retrospectiva · 2022": [
         st.Page("pages/riesgo_2022.py", title="Riesgo 2022", icon="🗺️"),
         st.Page("pages/recomendaciones.py", title="Recomendaciones", icon="🚲"),
         st.Page("pages/interpretabilidad.py", title="Interpretabilidad", icon="🔎"),
