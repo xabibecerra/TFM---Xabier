@@ -27,10 +27,12 @@ La secuencia metodológica debe respetar estas reglas:
 
 1. entrenamiento con 2019, 2021 y enero-septiembre de 2022;
 2. validación en octubre de 2022;
-3. test final único en noviembre-diciembre de 2022;
-4. ninguna selección de modelo, recalibración o cambio de umbral a partir del test;
+3. evaluación temporal retrospectiva en noviembre-diciembre de 2022, con modelos y preprocesadores congelados;
+4. ninguna selección de modelo, recalibración o cambio de umbral a partir de esa evaluación;
 5. 2023 limitado a viajes observados, sin inventar estados de estación;
 6. interpretabilidad entendida como asociación predictiva, no causalidad.
+
+El periodo de noviembre-diciembre de 2022 se consultó durante el desarrollo y no recupera independencia por congelar posteriormente los artefactos. La reproducción documenta el comportamiento observado, no una evaluación prospectiva nunca examinada.
 
 El script `scripts/preparar_datos_app.py` valida los CSV congelados y crea el snapshot Parquet. Como los CSV masivos no se redistribuyen, el script sirve para auditar o reconstruir el empaquetado cuando el investigador dispone de esas salidas. Para comprobar el snapshot ya incluido basta con:
 
@@ -47,4 +49,3 @@ python -m app.data
 - `app_data/manifiesto_app.json` contiene SHA-256 de cada Parquet y los recuentos esperados.
 - `models/SHA256SUMS` contiene SHA-256 de los artefactos congelados.
 - Los manifiestos de `results/` documentan el alcance de las fases 08–11.
-
