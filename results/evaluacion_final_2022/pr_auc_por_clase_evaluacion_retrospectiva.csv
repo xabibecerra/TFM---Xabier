@@ -1,0 +1,7 @@
+model,class_value,class_name,support,prevalence,pr_auc_average_precision
+xgboost_refined,0,Estable,329922,0.8702677893137503,0.9949136828568184
+xgboost_refined,1,Riesgo de vaciado,43460,0.11463872710390816,0.8932009903460925
+xgboost_refined,2,Riesgo de saturación,5722,0.015093483582341522,0.6722000241172301
+logistic_refined,0,Estable,329922,0.8702677893137503,0.9931788906343118
+logistic_refined,1,Riesgo de vaciado,43460,0.11463872710390816,0.874265894413209
+logistic_refined,2,Riesgo de saturación,5722,0.015093483582341522,0.5853882639185457
