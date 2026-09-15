@@ -167,7 +167,7 @@ Antes de publicar en un servicio externo:
 
 No hay credenciales, conexiones a bases de datos ni secretos necesarios para ejecutar esta versión.
 
-## Relación con la Guía TFM Xabi
+## Relación con los objetivos y procedencia
 
 La aplicación materializa el apartado 10 de la guía y conecta los apartados 8 y 9: consulta de predicción por estación-hora, visualización espacial, interpretabilidad, errores y recomendaciones. La propuesta inicial de utilizar enero-febrero de 2023 como test se sustituyó por noviembre-diciembre de 2022 debido a la ausencia de estados de estaciones de 2023. Esta revisión evita inventar disponibilidad o etiquetas y conserva 2023 como análisis descriptivo de viajes.
 
